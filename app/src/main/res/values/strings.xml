@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Restaurante Schmitz</string>
+    <string name="txt_logo">Logo App</string>
+    <string name="hint_user">Usuário</string>
+    <string name="hint_password">Senha</string>
+    <string name="btn_log_in">Entrar</string>
+    <string name="txt_forgot_password">Esqueceu a senha?</string>
+    <string name="btn_log_in_facebook">Entrar com Facebook</string>
+    <string name="btn_log_in_google">Entrar com Google</string>
+    <string name="txt_dont_have_an_account">Não tem conta? Cadastre-se!</string>
+
+    <string name="hint_number_table">Número Mesa</string>
+    <string name="btn_reserve">Reservar</string>
+    <string name="btn_release_table">Liberar Mesa</string>
+    <string name="btn_save_operation">Salvar Operação</string>
+    <string name="btn_reserve_all_table">Reservar todas as mesas</string>
+</resources>
