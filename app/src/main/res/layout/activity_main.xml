@@ -6,7 +6,6 @@
     android:layout_margin="10dp"
     android:background="@android:color/white">
 
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -20,27 +19,28 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/table_default"
                 android:layout_margin="10dp"
                 android:layout_weight="1">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:background="@color/table_default">
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="1"
                         android:textAlignment="center"
-                        android:textSize="50dp"
-                        android:textStyle="bold"
-                        android:textColor="@android:color/white"/>
+                        android:textColor="@android:color/white"
+                        android:textSize="50sp"
+                        android:textStyle="bold" />
                     <Button
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/btn_reserve"/>
+                        android:text="@string/btn_reserve"
+                        android:backgroundTint="@android:color/white"/>
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
@@ -48,27 +48,28 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/table_default"
                 android:layout_margin="10dp"
                 android:layout_weight="1">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:background="@color/table_default">
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="2"
                         android:textAlignment="center"
-                        android:textSize="50dp"
+                        android:textSize="50sp"
                         android:textStyle="bold"
                         android:textColor="@android:color/white"/>
                     <Button
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/btn_reserve"/>
+                        android:text="@string/btn_reserve"
+                        android:backgroundTint="@android:color/white"/>
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
@@ -76,27 +77,28 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/table_default"
                 android:layout_margin="10dp"
                 android:layout_weight="1">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:background="@color/table_default">
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="3"
                         android:textAlignment="center"
-                        android:textSize="50dp"
+                        android:textSize="50sp"
                         android:textStyle="bold"
                         android:textColor="@android:color/white"/>
                     <Button
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/btn_reserve"/>
+                        android:text="@string/btn_reserve"
+                        android:backgroundTint="@android:color/white"/>
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
@@ -111,27 +113,28 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/table_default"
                 android:layout_margin="10dp"
                 android:layout_weight="1">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:background="@color/table_default">
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="4"
                         android:textAlignment="center"
-                        android:textSize="50dp"
+                        android:textSize="50sp"
                         android:textStyle="bold"
                         android:textColor="@android:color/white"/>
                     <Button
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/btn_reserve"/>
+                        android:text="@string/btn_reserve"
+                        android:backgroundTint="@android:color/white"/>
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
@@ -139,27 +142,28 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/table_default"
                 android:layout_margin="10dp"
                 android:layout_weight="1">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:background="@color/table_default">
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="5"
                         android:textAlignment="center"
-                        android:textSize="50dp"
+                        android:textSize="50sp"
                         android:textStyle="bold"
                         android:textColor="@android:color/white"/>
                     <Button
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/btn_reserve"/>
+                        android:text="@string/btn_reserve"
+                        android:backgroundTint="@android:color/white"/>
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
@@ -167,27 +171,28 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/table_default"
                 android:layout_margin="10dp"
                 android:layout_weight="1">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:background="@color/table_default">
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="6"
                         android:textAlignment="center"
-                        android:textSize="50dp"
+                        android:textSize="50sp"
                         android:textStyle="bold"
                         android:textColor="@android:color/white"/>
                     <Button
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/btn_reserve"/>
+                        android:text="@string/btn_reserve"
+                        android:backgroundTint="@android:color/white"/>
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
@@ -202,27 +207,28 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/table_default"
                 android:layout_margin="10dp"
                 android:layout_weight="1">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:background="@color/table_default">
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="7"
                         android:textAlignment="center"
-                        android:textSize="50dp"
+                        android:textSize="50sp"
                         android:textStyle="bold"
                         android:textColor="@android:color/white"/>
                     <Button
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/btn_reserve"/>
+                        android:text="@string/btn_reserve"
+                        android:backgroundTint="@android:color/white"/>
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
@@ -230,27 +236,28 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/table_default"
                 android:layout_margin="10dp"
                 android:layout_weight="1">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:background="@color/table_default">
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="8"
                         android:textAlignment="center"
-                        android:textSize="50dp"
+                        android:textSize="50sp"
                         android:textStyle="bold"
                         android:textColor="@android:color/white"/>
                     <Button
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/btn_reserve"/>
+                        android:text="@string/btn_reserve"
+                        android:backgroundTint="@android:color/white"/>
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
@@ -258,27 +265,28 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/table_default"
                 android:layout_margin="10dp"
                 android:layout_weight="1">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:background="@color/table_default">
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="9"
                         android:textAlignment="center"
-                        android:textSize="50dp"
+                        android:textSize="50sp"
                         android:textStyle="bold"
                         android:textColor="@android:color/white"/>
                     <Button
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/btn_reserve"/>
+                        android:text="@string/btn_reserve"
+                        android:backgroundTint="@android:color/white"/>
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
@@ -301,7 +309,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/btn_release_table"/>
+                android:text="@string/btn_release_table"
+                android:backgroundTint="@color/btn_primary"
+                android:textColor="@android:color/white"/>
 
         </LinearLayout>
 
@@ -314,7 +324,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/btn_save_operation"/>
+                android:text="@string/btn_save_operation"
+                android:backgroundTint="@color/btn_primary"
+                android:textColor="@android:color/white"/>
 
         </LinearLayout>
 
@@ -327,13 +339,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/btn_reserve_all_table"/>
+                android:text="@string/btn_reserve_all_table"
+                android:backgroundTint="@color/btn_primary"
+                android:textColor="@android:color/white"/>
 
         </LinearLayout>
 
     </LinearLayout>
-
-
-
 
 </LinearLayout>
