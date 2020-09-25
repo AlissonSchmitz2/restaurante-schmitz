@@ -1,8 +1,10 @@
-package br.com.unesc.pdm.restauranteschmitz;
+package br.com.unesc.pdm.restauranteschmitz.main;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import br.com.unesc.pdm.restauranteschmitz.R;
 
 public class MainActivity extends AppCompatActivity {
 
