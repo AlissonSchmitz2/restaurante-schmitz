@@ -23,6 +23,7 @@
                 android:layout_weight="1">
 
                 <LinearLayout
+                    android:id="@+id/linear_table_1"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical"
@@ -37,6 +38,7 @@
                         android:textSize="50sp"
                         android:textStyle="bold" />
                     <Button
+                        android:id="@+id/btn_reservate_1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/btn_reserve"
@@ -52,6 +54,7 @@
                 android:layout_weight="1">
 
                 <LinearLayout
+                    android:id="@+id/linear_table_2"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical"
@@ -66,6 +69,7 @@
                         android:textStyle="bold"
                         android:textColor="@android:color/white"/>
                     <Button
+                        android:id="@+id/btn_reservate_2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/btn_reserve"
@@ -81,6 +85,7 @@
                 android:layout_weight="1">
 
                 <LinearLayout
+                    android:id="@+id/linear_table_3"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical"
@@ -95,6 +100,7 @@
                         android:textStyle="bold"
                         android:textColor="@android:color/white"/>
                     <Button
+                        android:id="@+id/btn_reservate_3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/btn_reserve"
@@ -117,6 +123,7 @@
                 android:layout_weight="1">
 
                 <LinearLayout
+                    android:id="@+id/linear_table_4"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical"
@@ -131,6 +138,7 @@
                         android:textStyle="bold"
                         android:textColor="@android:color/white"/>
                     <Button
+                        android:id="@+id/btn_reservate_4"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/btn_reserve"
@@ -146,6 +154,7 @@
                 android:layout_weight="1">
 
                 <LinearLayout
+                    android:id="@+id/linear_table_5"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical"
@@ -160,6 +169,7 @@
                         android:textStyle="bold"
                         android:textColor="@android:color/white"/>
                     <Button
+                        android:id="@+id/btn_reservate_5"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/btn_reserve"
@@ -175,6 +185,7 @@
                 android:layout_weight="1">
 
                 <LinearLayout
+                    android:id="@+id/linear_table_6"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical"
@@ -189,6 +200,7 @@
                         android:textStyle="bold"
                         android:textColor="@android:color/white"/>
                     <Button
+                        android:id="@+id/btn_reservate_6"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/btn_reserve"
@@ -211,6 +223,7 @@
                 android:layout_weight="1">
 
                 <LinearLayout
+                    android:id="@+id/linear_table_7"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical"
@@ -225,6 +238,7 @@
                         android:textStyle="bold"
                         android:textColor="@android:color/white"/>
                     <Button
+                        android:id="@+id/btn_reservate_7"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/btn_reserve"
@@ -240,6 +254,7 @@
                 android:layout_weight="1">
 
                 <LinearLayout
+                    android:id="@+id/linear_table_8"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical"
@@ -254,6 +269,7 @@
                         android:textStyle="bold"
                         android:textColor="@android:color/white"/>
                     <Button
+                        android:id="@+id/btn_reservate_8"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/btn_reserve"
@@ -269,6 +285,7 @@
                 android:layout_weight="1">
 
                 <LinearLayout
+                    android:id="@+id/linear_table_9"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical"
@@ -283,6 +300,7 @@
                         android:textStyle="bold"
                         android:textColor="@android:color/white"/>
                     <Button
+                        android:id="@+id/btn_reservate_9"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/btn_reserve"
@@ -299,6 +317,7 @@
             android:orientation="horizontal">
 
             <EditText
+                android:id="@+id/txt_number_table"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -306,6 +325,7 @@
                 android:inputType="number"/>
 
             <Button
+                android:id="@+id/btn_release_table"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
