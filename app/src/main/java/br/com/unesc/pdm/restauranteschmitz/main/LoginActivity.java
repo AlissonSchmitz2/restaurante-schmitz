@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -22,23 +23,18 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        LoggerPreferences.init(true, true);
-        loggerPreferences = LoggerPreferences.get(LoginActivity.this).with(LoginActivity.this);
-
         txt_user = findViewById(R.id.txt_user);
         txt_password = findViewById(R.id.txt_password);
         btn_log_in = findViewById(R.id.btn_log_in);
         btn_log_in.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
                 if(validateFields()) {
                     if(auth()) {
                         Intent it = new Intent(LoginActivity.this, MainActivity.class);
                         startActivity(it);
                     }
                 }
-
             }
         });
     }
@@ -59,30 +55,31 @@ public class LoginActivity extends AppCompatActivity {
     private boolean auth() {
         String user = txt_user.getText().toString(), password = txt_password.getText().toString();
 
-        if (user.equals("Administrador")) {
-            if (password.equals("Administrador")) {
-                return true;
-            }
-            txt_password.setError("Senha Inválida!");
-            return false;
-        } else if (user.equals("Adm")) {
-            if (password.equals("Adm123")) {
-                return true;
-            }
-            txt_password.setError("Senha Inválida!");
-            return false;
-        } else if (user.equals("Administrator")) {
-            if (password.equals("Que3B1eng4ElT0r0")) {
-                return true;
-            }
-            txt_password.setError("Senha Inválida!");
-            return false;
-        } else if (user.equals("Root")) {
-            if (password.equals("pr0m1uscu0")) {
-                return true;
-            }
-            txt_password.setError("Senha Inválida!");
-            return false;
+        switch (user) {
+            case "Administrador":
+                if (password.equals("Administrador")) {
+                    return true;
+                }
+                txt_password.setError("Senha Inválida!");
+                return false;
+            case "Adm":
+                if (password.equals("Adm123")) {
+                    return true;
+                }
+                txt_password.setError("Senha Inválida!");
+                return false;
+            case "Administrator":
+                if (password.equals("Que3B1eng4ElT0r0")) {
+                    return true;
+                }
+                txt_password.setError("Senha Inválida!");
+                return false;
+            case "Root":
+                if (password.equals("pr0m1uscu0")) {
+                    return true;
+                }
+                txt_password.setError("Senha Inválida!");
+                return false;
         }
 
         txt_user.setError("Usuário Inválido!");

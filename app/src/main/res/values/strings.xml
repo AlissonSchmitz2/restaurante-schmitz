@@ -13,5 +13,5 @@
     <string name="btn_reserve">Reservar</string>
     <string name="btn_release_table">Liberar Mesa</string>
     <string name="btn_save_operation">Salvar Operação</string>
-    <string name="btn_reserve_all_table">Reservar todas as mesas</string>
+    <string name="btn_reserve_all_tables">Reservar todas as mesas</string>
 </resources>

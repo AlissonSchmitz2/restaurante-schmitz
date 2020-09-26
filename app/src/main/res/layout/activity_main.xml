@@ -341,6 +341,7 @@
             android:orientation="horizontal">
 
             <Button
+                android:id="@+id/btn_save_operation"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -356,10 +357,11 @@
             android:orientation="horizontal">
 
             <Button
+                android:id="@+id/btn_reserve_all_tables"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/btn_reserve_all_table"
+                android:text="@string/btn_reserve_all_tables"
                 android:backgroundTint="@color/btn_primary"
                 android:textColor="@android:color/white"/>
 

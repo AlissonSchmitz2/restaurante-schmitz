@@ -66,6 +66,15 @@ public class LoggerPreferences {
         return value;
     }
 
+    public boolean getBoolean(final String key, final boolean defaultValue) {
+        final boolean value = sharedPreferences.getBoolean(key, defaultValue);
+        if (shouldLogGet) {
+            final String action = getAction(targetObject, key, ""+value, "Boolean");
+            Log.d(TAG, action);
+        }
+        return value;
+    }
+
     private String getAction(final Object targetObject, final String key, final String value, final String dataType) {
         return
         (
@@ -104,6 +113,16 @@ public class LoggerPreferences {
             }
 
             editor.putInt(key, value);
+            return this;
+        }
+
+        public Editor putBoolean(final String key, final boolean value) {
+            if (shouldLogPut) {
+                final String action = getAction(targetObject, key, ""+value, "Boolean");
+                Log.d(TAG, action);
+            }
+
+            editor.putBoolean(key, value);
             return this;
         }
 
