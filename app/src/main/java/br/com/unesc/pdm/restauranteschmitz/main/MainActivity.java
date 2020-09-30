@@ -2,6 +2,7 @@ package br.com.unesc.pdm.restauranteschmitz.main;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.util.Log;
@@ -9,6 +10,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import br.com.unesc.pdm.restauranteschmitz.R;
@@ -22,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
     btn_reservate_5, btn_reservate_6, btn_reservate_7, btn_reservate_8, btn_reservate_9;
     private EditText txt_number_table;
     private Button btn_release_table, btn_save_operation, btn_reserve_all_tables;
+    private TextView label_welcome;
     private LoggerPreferences loggerPreferences;
 
     @Override
@@ -31,6 +34,10 @@ public class MainActivity extends AppCompatActivity {
 
         LoggerPreferences.init(true, true);
         loggerPreferences = LoggerPreferences.get(MainActivity.this).with(MainActivity.this);
+
+        Intent it = getIntent();
+        label_welcome = findViewById(R.id.label_welcome);
+        label_welcome.setText("Olá, " + it.getStringExtra("user"));
 
         linear_table_1 = findViewById(R.id.linear_table_1);
         btn_reservate_1 = findViewById(R.id.btn_reservate_1);

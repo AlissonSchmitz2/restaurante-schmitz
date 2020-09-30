@@ -17,6 +17,7 @@ public class LoginActivity extends AppCompatActivity {
     private EditText txt_user, txt_password;
     private Button btn_log_in;
     private LoggerPreferences loggerPreferences;
+    private String user;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +33,7 @@ public class LoginActivity extends AppCompatActivity {
                 if(validateFields()) {
                     if(auth()) {
                         Intent it = new Intent(LoginActivity.this, MainActivity.class);
+                        it.putExtra("user", user);
                         startActivity(it);
                     }
                 }
@@ -58,24 +60,28 @@ public class LoginActivity extends AppCompatActivity {
         switch (user) {
             case "Administrador":
                 if (password.equals("Administrador")) {
+                    this.user = "Administrador";
                     return true;
                 }
                 txt_password.setError("Senha Inválida!");
                 return false;
             case "Adm":
                 if (password.equals("Adm123")) {
+                    this.user = "Adm";
                     return true;
                 }
                 txt_password.setError("Senha Inválida!");
                 return false;
             case "Administrator":
                 if (password.equals("Que3B1eng4ElT0r0")) {
+                    this.user = "Administrator";
                     return true;
                 }
                 txt_password.setError("Senha Inválida!");
                 return false;
             case "Root":
                 if (password.equals("pr0m1uscu0")) {
+                    this.user = "Root";
                     return true;
                 }
                 txt_password.setError("Senha Inválida!");
