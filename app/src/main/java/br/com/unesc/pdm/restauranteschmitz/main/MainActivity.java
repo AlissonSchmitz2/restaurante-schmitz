@@ -80,10 +80,17 @@ public class MainActivity extends AppCompatActivity {
         btn_release_table.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                int number_table = Integer.valueOf(
-                        txt_number_table.getText().toString().isEmpty()
-                                ? "0"
-                                : txt_number_table.getText().toString());
+                int number_table;
+                try {
+                    number_table = Integer.valueOf(
+                            txt_number_table.getText().toString().isEmpty()
+                                    ? "0"
+                                    : txt_number_table.getText().toString());
+                } catch (NumberFormatException e) {
+                    number_table = 0;
+                }
+
+
                 if(number_table > 0 && number_table < 10) {
                     if(!getBtnReservateTable(number_table).isEnabled()) {
                         ColorDrawable colorDefaultTable = new ColorDrawable(getResources()

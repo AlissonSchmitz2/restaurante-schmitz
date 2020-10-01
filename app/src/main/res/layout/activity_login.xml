@@ -29,7 +29,10 @@
             android:id="@+id/txt_user"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/hint_user" />
+            android:hint="@string/hint_user"
+            android:singleLine="true"
+            android:maxLines="1"
+            android:imeOptions="actionNext"/>
 
         <EditText
             android:id="@+id/txt_password"
